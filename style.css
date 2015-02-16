@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2015, 2:26:44 PM
+    Author     : Collin
+*/
+h1 {
+    text-height:max-size;
+    text-shadow: 2em;
+}
+body {
+    background-image:url(namienlion.jpg);
+    background-repeat:repeat-x;
+}
+header h3{
+    color: blue;
+}
+li
+{
+    display: inline-block;
+    padding-left: 1em;
+}

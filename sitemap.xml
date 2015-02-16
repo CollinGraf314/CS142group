@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://cgraf.w3.uvm.edu/cs142/">
+
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/home.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.9</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/form.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.89</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/top.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.88</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/header.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.87</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/nav.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.86</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/footer.php</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.85</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/form.css</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment1/form2.css</loc>
+
+      <lastmod>2015-01-21</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.7</priority>
+
+   </url>
+   <!--END OF ASSIGNMENT 1-->
+    <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment2/resume.php</loc>
+
+      <lastmod>2015-02-4</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.9</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment2/style.css</loc>
+
+      <lastmod>2015-02-4</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.85</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment2/style2.css</loc>
+
+      <lastmod>2015-02-4</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://cgraf.w3.uvm.edu/cs142/assignment2/print.css</loc>
+
+      <lastmod>2015-02-4</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.7</priority>
+
+   </url>
+</urlset> 
