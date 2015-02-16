@@ -10,6 +10,7 @@
 .printonly{display:none;}
 html, body {height: 100%;}
 
+
 body {
     width:100%;
     background:#fff;
@@ -182,6 +183,7 @@ strong{
 #mainMenu{
     /* border-bottom: thin solid #3B5998;
      float: right;*/
+    border: 15px solid transparent;
     font-size: 10pt;
     margin: auto;
     min-width: 50em;
@@ -190,6 +192,7 @@ strong{
     width: 90%;
     float:left;
     background-image: url(corkboard.jpg);
+     border-image: url(http://images.clipartpanda.com/border-clipart-Old_style_border_Vector_Clipart.png) 30 30 stretch;
     background-repeat: repeat-x;
 }
 
@@ -388,10 +391,8 @@ table#grading, table#grading td, table#grading th{
 
 
 #slide{
-    /*	float: left;
-            width: 57.8888889%;/* 566px / 900px less some padding
-            padding: 0 1em 2em 0;
-            border-right: dashed thin #999;*/
+    background-image: url(do!rwy2.gif);
+    background-repeat: repeat;
 }
 
 #lectureSlide #otherMedia, #displayAssign #otherMedia, #lecture #otherMedia{
