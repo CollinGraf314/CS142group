@@ -108,8 +108,11 @@ strong{
 /* ===================  Header  Section  ==================================== */
 
 #topbox{
-    padding: 1em 2em 0;
-    width: 74.3333%;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: red;
+    overflow: hidden;
 }
 #header {
     background-color: #3B5998;
@@ -149,23 +152,32 @@ strong{
     border: thick dashed #3B5998;
     float: left;*/
     margin-bottom: 3em;
-    margin-right: 20%;
     width: 90%;
     float: left;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#classRank{
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 #studentName{
-    margin-right: 22%;
+    margin-left: 8%;
+    margin-right:8%;
 }
 
 #studentGrade{
     display:inline-block;
-    margin-right: 22%;
+    margin-left: 8%;
+    margin-right: 8%;
 }	
 
 #studentGrade a:visited{
     color: navy;
-    margin-right: 22%;
+    margin-left:8%;
+    margin-right: 8%;
 }	
 
 #classRank{
@@ -183,19 +195,17 @@ strong{
 #mainMenu{
     /* border-bottom: thin solid #3B5998;
      float: right;*/
-    border: 15px solid transparent;
     font-size: 10pt;
     margin: auto;
-    min-width: 50em;
-    width: 90%;
-    float:left;
+    margin-top: 2.5em;
+    width: 100%;
     background-image: url(corkboard.jpg);
-    background-repeat: repeat-x;
+    background-repeat: repeat;
+    background-size: 270px;
+    overflow: hidden;
 }
 
 #mainMenu ol{
-    padding-left:0;
-    margin-left:0;
 
 }
 
@@ -237,11 +247,11 @@ strong{
 }
 
 .menuLink{
-    display: inline;
+    display: block;
     width: 90px;
     height: 90px;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin-left: 2em;
+    margin-right: 2.6em;
     text-align: center;
     padding-top: 2em;
     overflow: hidden;
@@ -262,9 +272,9 @@ nav#mainMenu ol li.menuLink a:visited{
     background-color: #FEFEFE;
     border: 2px solid #FEFEFE;
     border-radius: 0.5em;
+    width: 80%;
+    margin: auto;
     overflow: auto;
-    padding: 2em 2em 50px;
-    width: 74.3333%;
 }
 
 .body {
@@ -1184,8 +1194,7 @@ media query templates
 /**************************************************/
 @media screen and (max-width: 520px){
     /* ===================  Main Navigation Section  ============================ */
-    #mainMenu{
-        margin: 2em;	
+    #mainMenu{	
     }
 
     #mainMenu a, #adminMenu a{
@@ -1194,7 +1203,6 @@ media query templates
 
     .menuLink{
         display: block;
-        min-height:4em;
     }
 
 
