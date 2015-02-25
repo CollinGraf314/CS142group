@@ -187,12 +187,9 @@ strong{
     font-size: 10pt;
     margin: auto;
     min-width: 50em;
-    padding-bottom: 1.3em;
-    text-align: center;
     width: 90%;
     float:left;
     background-image: url(corkboard.jpg);
-     border-image: url(http://images.clipartpanda.com/border-clipart-Old_style_border_Vector_Clipart.png) 30 30 stretch;
     background-repeat: repeat-x;
 }
 
@@ -202,50 +199,62 @@ strong{
 
 }
 
-#mainMenu .activeLink a{
-    color: #000;	
-    background-color: #fff;
-    border-bottom: thick solid white;
-}
-
 #mainMenu a{
     text-decoration: none;
 }
 
+#mainMenu ol li{
+    background-size: 90px, 90px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+#mainMenu ol li:nth-child(1){	
+    background-image: url("blue_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(2){	
+    background-image: url("yellow_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(3){	
+    background-image: url("red_balloon.jpg");
+}
+#mainMenu ol li:nth-child(4){	
+    background-image: url("blue_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(5){	
+    background-image: url("yellow_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(6){	
+    background-image: url("red_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(7){	
+    background-image: url("blue_balloon.jpg");
+}
+
 .menuLink{
     display: inline;
+    width: 90px;
+    height: 90px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    text-align: center;
+    padding-top: 2em;
+    overflow: hidden;
 }
 .menuLink a{	
-    border-left: thin solid gray;
-    border-top: thin solid gray;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 .menuLink a:link{
-    background-color: #D8DFEA;
-    border-left: thin solid #3B5998;
-    border-top: thin solid #3B5998;
-    border-right: thin solid #3B5998;
-    color: navy;
-    padding: 1em;
 }
 
 nav#mainMenu ol li.menuLink a:visited{
-    background-color: #D8DFEA;
-    border-left: thin solid #3B5998;
-    border-top: thin solid #3B5998;
-    border-right: thin solid #3B5998;
-    color: navy !important;
-    padding: 1em;
 }
 .menuLink a:hover{
-    background-color: #3B5998;
-    border-left: thin solid green;
-    border-top: thin solid green;
-    border-right: thin solid green;
-    color: white;
-    padding: 1em;	
 }
 
 /* ===================  Main Content Section  =============================== */
@@ -256,6 +265,11 @@ nav#mainMenu ol li.menuLink a:visited{
     overflow: auto;
     padding: 2em 2em 50px;
     width: 74.3333%;
+}
+
+.body {
+    background-image: url(do!rwy2.png);
+    background-repeat: repeat;
 }
 
 #mainContent a:visited{
@@ -389,11 +403,6 @@ table#grading, table#grading td, table#grading th{
 /* ===================  Main Content Section  =============================== */
 /* -------------------  layout                ------------------------ */
 
-
-#slide{
-    background-image: url(do!rwy2.gif);
-    background-repeat: repeat;
-}
 
 #lectureSlide #otherMedia, #displayAssign #otherMedia, #lecture #otherMedia{
     /*	float: right;
@@ -1187,14 +1196,7 @@ media query templates
         display: block;
         min-height:4em;
     }
-    .menuLink a{	
-        border-left: thin solid gray;
-        border-top: thin solid gray;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-    }
+
 
     .menuLink a:link{
 
@@ -1223,28 +1225,5 @@ media query templates
 }
 /*************************************************/
 @media screen and (min-width: 1200px){
-    body{
-        background-color: green;
-        color: #2C2C2C;
-        font: normal 100% Cambria, Georgia, serif;
-        width: 1200px;
-        margin: 0 auto;
-    }
-    #toolmenu:before {
-        content: 'min-width: 1200px';
-    }
 
-    .menuLink a:link{
-
-        padding: 1em;
-    }
-
-    .menuLink a:visited{
-
-        padding: 1em;
-    }
-    .menuLink a:hover{
-
-        padding: 1em;	
-    }
 }
