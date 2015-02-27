@@ -8,12 +8,20 @@
 }
 
 .printonly{display:none;}
-html, body {height: 100%;}
+html, body {
+    height: 100%;
+    cursor:url(spo149.gif),url(myBall.cur),auto;
+}
+
+html{
+    background-image: url("htmlbackground.jpg");
+    background-attachment: fixed;
+    background-size: 100%, 100%;
+}
 
 
 body {
     width:100%;
-    background:#fff;
     min-width:600px;
     font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
 }
@@ -30,6 +38,7 @@ a:link{
     color: navy;
     border-style: solid;
     border-color: transparent;
+    cursor:url(spo149.gif),url(myBall.cur),auto;
 }
 a:visited{
     color: #6666B3;
@@ -111,8 +120,13 @@ strong{
     width: 80%;
     margin-left:auto;
     margin-right: auto;
-    background-color: red;
+    background-image: url("CircusTent__Converted_.jpg");
+    background-position: -210px, -400px;
     overflow: hidden;
+    border-left: thick solid black;
+    border-right: thick solid black;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 }
 #header {
     background-color: #3B5998;
@@ -199,6 +213,7 @@ strong{
     margin: auto;
     margin-top: 2.5em;
     width: 100%;
+    max-height: 150px;
     background-image: url(corkboard.jpg);
     background-repeat: repeat;
     background-size: 270px;
@@ -217,6 +232,9 @@ strong{
     background-size: 90px, 90px;
     background-repeat: no-repeat;
     display: inline-block;
+    -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
 }
 
 #mainMenu ol li:nth-child(1){	
@@ -269,10 +287,12 @@ nav#mainMenu ol li.menuLink a:visited{
 
 /* ===================  Main Content Section  =============================== */
 #mainContent {
-    background-color: #FEFEFE;
-    border: 2px solid #FEFEFE;
-    border-radius: 0.5em;
-    width: 80%;
+    background-color: rgba(255,255,255,.5);
+    border-left: thick solid black;
+    border-right: thick solid black;
+    width: 72%;
+    padding-left: 4%;
+    padding-right: 4%;
     margin: auto;
     overflow: auto;
 }
@@ -280,6 +300,8 @@ nav#mainMenu ol li.menuLink a:visited{
 .body {
     background-image: url(do!rwy2.png);
     background-repeat: repeat;
+    border-left: thick solid black;
+    border-right: thick solid black;
 }
 
 #mainContent a:visited{
@@ -477,6 +499,8 @@ ol.webReviewList li.tentative:before{
 
 .title{
     padding: .5em;
+    font-size: 30pt;
+    text-decoration: none;
 }
 
 .small{
@@ -997,15 +1021,15 @@ footer{
     border: 2px solid #3B5998;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
+    border-left: thick solid black;
+    border-right: thick solid black;
     clear: both;
     color: #FFFFFF;
     height: 50px;
     left: 0;
     margin-top: -50px;
-    padding: 2em 2em 0;
-    position: relative;
-    top: 0;
-    width: 74.3333%;
+    width: 80%;
+    margin: auto;
 }
 
 footer p{
@@ -1051,7 +1075,6 @@ ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; f
 ul#icons span.ui-icon {float: left; margin: 0 4px;}
 
 body{
-    background-color: #dcdbd9;
     color: #2C2C2C;
     font: normal 100% Cambria, Georgia, serif;
     width: 100%;
@@ -1144,7 +1167,6 @@ media query templates
 
 @media screen and (max-width: 480px){
     body{
-        background-color: black;
         color: #2C2C2C;
         font: normal 100% Cambria, Georgia, serif;
 
@@ -1164,7 +1186,6 @@ media query templates
 
 @media screen and (max-width: 520px){
     body{
-        background-color: grey;
         color: #2C2C2C;
         font: normal 100% Cambria, Georgia, serif;
         margin: 0 auto;
@@ -1181,7 +1202,6 @@ media query templates
 
 @media screen and (max-width: 768px){
     body{
-        background-color: #880000;
         color: #2C2C2C;
         font: normal 100% Cambria, Georgia, serif;
         margin: 0 auto;
