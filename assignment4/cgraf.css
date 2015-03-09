@@ -237,6 +237,16 @@ strong{
     transform: rotate(40deg);
 }
 
+#mainMenu ol li:hover{
+    background-size: 100px, 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
+    overflow: auto;
+}
+
 #mainMenu ol li:nth-child(1){	
     background-image: url("blue_balloon.jpg");
 }
@@ -262,6 +272,33 @@ strong{
 
 #mainMenu ol li:nth-child(7){	
     background-image: url("blue_balloon.jpg");
+}
+
+#mainMenu ol li:nth-child(1):hover{	
+    background-image: url("bluePop.png");
+}
+
+#mainMenu ol li:nth-child(2):hover{	
+    background-image: url("yellowPop.png");
+}
+
+#mainMenu ol li:nth-child(3):hover{	
+    background-image: url("redPop.png");
+}
+#mainMenu ol li:nth-child(4):hover{	
+    background-image: url("bluePop.png");
+}
+
+#mainMenu ol li:nth-child(5):hover{	
+    background-image: url("yellowPop.png");
+}
+
+#mainMenu ol li:nth-child(6):hover{	
+    background-image: url("redPop.png");
+}
+
+#mainMenu ol li:nth-child(7):hover{	
+    background-image: url("bluePop.png");
 }
 
 .menuLink{
