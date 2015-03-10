@@ -17,6 +17,7 @@ html{
     background-image: url("htmlbackground.jpg");
     background-attachment: fixed;
     background-size: 100%, 100%;
+    background-position-y: -250px; 
 }
 
 
@@ -28,6 +29,7 @@ body {
 
 a{
     border-width: .1em;
+    font-family: "century gothic";
 }
 
 a[target="_blank"]{
@@ -45,9 +47,8 @@ a:visited{
     /*#90C13E !important;*/
 }
 a:hover {
-    border-style: solid;
-    border-color: navy;
-    background: #D8DFEA;
+    font-weight: bold;
+    background-color: rgba(220,220,220,.4);
 }
 
 code{
@@ -58,6 +59,8 @@ h1, h2, h3 {
     font-weight:bold;	
     margin:.8em 0 .2em 0;
     padding:0;
+    text-transform: uppercase;
+    font-family: "Rockwell Extra Bold";
 }
 
 h1{
@@ -84,13 +87,16 @@ img {
 p {
     padding: .4em 0 .8em 0;;
     margin: 0;
+    font-family: "century gothic";
 }
 ol li {
     padding-bottom: 1em;
     clear: left;
+    font-family: "century gothic";
 }
 ol ol li {
     padding-bottom: 1em;
+    font-family: "century gothic";
 
 }
 
@@ -144,10 +150,16 @@ strong{
 }
 
 #classtitle{
-    font-size:14px; 
+    font-size:20px; 
     font-weight:bold;
     text-align: center;
     margin-bottom: 1em;
+}
+
+#classtitle a{
+    font-size: 20px;
+    font-weight:bold;
+    text-decoration: none;
 }
 
 .todaysdate{
@@ -173,16 +185,19 @@ strong{
 }
 
 #classRank{
+    font-size: 14pt;
     margin-left: 8%;
     margin-right: 8%;
 }
 
 #studentName{
+    font-size: 14pt;
     margin-left: 8%;
     margin-right:8%;
 }
 
 #studentGrade{
+    font-size: 14pt;
     display:inline-block;
     margin-left: 8%;
     margin-right: 8%;
@@ -237,6 +252,16 @@ strong{
     transform: rotate(40deg);
 }
 
+#mainMenu ol li a{
+    -ms-transform: rotate(-40deg); /* IE 9 */
+    -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
+    transform: rotate(-40deg);
+    overflow: hidden;
+    text-align: center;
+    margin-left: 1.45em;
+    font-family: "century gothic";
+}
+
 #mainMenu ol li:hover{
     background-size: 100px, 100px;
     background-repeat: no-repeat;
@@ -244,7 +269,7 @@ strong{
     -ms-transform: rotate(40deg); /* IE 9 */
     -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
     transform: rotate(40deg);
-    overflow: auto;
+    overflow: hidden;
 }
 
 #mainMenu ol li:nth-child(1){	
@@ -258,6 +283,7 @@ strong{
 #mainMenu ol li:nth-child(3){	
     background-image: url("red_balloon.jpg");
 }
+
 #mainMenu ol li:nth-child(4){	
     background-image: url("blue_balloon.jpg");
 }
@@ -276,29 +302,37 @@ strong{
 
 #mainMenu ol li:nth-child(1):hover{	
     background-image: url("bluePop.png");
+    background-position: center center;
 }
 
 #mainMenu ol li:nth-child(2):hover{	
     background-image: url("yellowPop.png");
+    background-position: center center;
 }
 
 #mainMenu ol li:nth-child(3):hover{	
     background-image: url("redPop.png");
+    background-position: center center;
 }
+
 #mainMenu ol li:nth-child(4):hover{	
     background-image: url("bluePop.png");
+    background-position: center center;
 }
 
 #mainMenu ol li:nth-child(5):hover{	
     background-image: url("yellowPop.png");
+    background-position: center center;
 }
 
 #mainMenu ol li:nth-child(6):hover{	
     background-image: url("redPop.png");
+    background-position: center center;
 }
 
 #mainMenu ol li:nth-child(7):hover{	
     background-image: url("bluePop.png");
+    background-position: center center;
 }
 
 .menuLink{
@@ -311,7 +345,14 @@ strong{
     padding-top: 2em;
     overflow: hidden;
 }
-.menuLink a{	
+.menuLink a{
+    display: block;
+    color: black;
+    font-weight: normal;
+    font-size: 10pt;
+    width: 95%;
+    height: 95%;
+    overflow: hidden;
 }
 
 .menuLink a:link{
@@ -585,6 +626,7 @@ figcaption{
     border-top: thin dotted  #999999;
     padding-top: .4em;
     padding-bottom: .4em;
+    
 }
 
 #otherMedia ol li a[href*="http://"]{
@@ -761,6 +803,10 @@ tr.days th.sat, tr.days th.sun {
     font-size: 120%;
 }
 
+#vcalendar{
+    background-color: rgba(255,255,255,1);
+}
+
 #calendar table td {
     vertical-align:top;
     padding:3px; 
@@ -888,6 +934,10 @@ td.Jun div.date, td.Aug div.date{
     width: 80%;
 }
 
+.AssignmentsLink li{
+    font-size: 14pt;
+    font-family: "century gothic";
+}
 
 #txtDateRequest{
     width: 7em;
@@ -1022,19 +1072,27 @@ div #studentComments{
 }
 /* -------------------upcoming aside  ------------------------------- */
 
+aside {
+    margin-right: -45px;
+}
+
 aside#upcoming{
     background-color: #FFF8DC;
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
     float: right;
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 1em;
     padding: 0.5em;
     width: 20em;
 }
 #upcoming div.box{
     clear: both;
+}
+
+aside#otherMedia{
+    
 }
 
 #upcoming h2{
@@ -1050,6 +1108,16 @@ aside#upcoming{
 
 #upcoming ol.LecturesLink, #upcoming ol.AssignmentLink, #upcoming ol.examLink{
     padding-left: 0;
+}
+
+.AssignmentLink li{
+    font-size: 14pt;
+    font-family: "century gothic";
+}
+
+.examLink li {
+    font-size: 14pt;
+    font-family: "century gothic";
 }
 
 /* ===================  Footer Section        =============================== */
@@ -1123,7 +1191,6 @@ body{
 
 h1{
     font-size: 1.5em; /* 24px / 16px */
-    font-style: italic;
     font-weight: normal;
 }
 
