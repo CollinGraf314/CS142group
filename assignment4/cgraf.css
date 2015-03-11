@@ -262,8 +262,8 @@ strong{
     font-family: "century gothic";
 }
 
-#mainMenu ol li:hover{
-    background-size: 100px, 100px;
+#mainMenu ol li:active{
+    background-size: 90px, 90px;
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: rotate(40deg); /* IE 9 */
@@ -273,64 +273,64 @@ strong{
 }
 
 #mainMenu ol li:nth-child(1){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(2){	
-    background-image: url("yellow_balloon.jpg");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(3){	
-    background-image: url("red_balloon.jpg");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(4){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(5){	
-    background-image: url("yellow_balloon.jpg");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(6){	
-    background-image: url("red_balloon.jpg");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(7){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
 }
 
-#mainMenu ol li:nth-child(1):hover{	
+#mainMenu ol li:nth-child(1):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(2):hover{	
+#mainMenu ol li:nth-child(2):active{	
     background-image: url("yellowPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(3):hover{	
+#mainMenu ol li:nth-child(3):active{	
     background-image: url("redPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(4):hover{	
+#mainMenu ol li:nth-child(4):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(5):hover{	
+#mainMenu ol li:nth-child(5):active{	
     background-image: url("yellowPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(6):hover{	
+#mainMenu ol li:nth-child(6):active{	
     background-image: url("redPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(7):hover{	
+#mainMenu ol li:nth-child(7):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
