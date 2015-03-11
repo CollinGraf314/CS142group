@@ -10,11 +10,11 @@
 .printonly{display:none;}
 html, body {
     height: 100%;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
+    cursor:url(images/spo149.gif),url(myBall.cur),auto;
 }
 
 html{
-    background-image: url("htmlbackground.jpg");
+    background-image: url("images/htmlbackground.jpg");
     background-attachment: fixed;
     background-size: 100%, 100%;
     background-position-y: -250px; 
@@ -40,7 +40,7 @@ a:link{
     color: navy;
     border-style: solid;
     border-color: transparent;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
+    cursor:url(images/spo149.gif),url(myBall.cur),auto;
 }
 a:visited{
     color: #6666B3;
@@ -126,7 +126,7 @@ strong{
     width: 80%;
     margin-left:auto;
     margin-right: auto;
-    background-image: url("CircusTent__Converted_.jpg");
+    background-image: url("images/CircusTent__Converted_.jpg");
     background-position: -210px, -400px;
     overflow: hidden;
     border-left: thick solid black;
@@ -229,7 +229,7 @@ strong{
     margin-top: 2.5em;
     width: 100%;
     max-height: 150px;
-    background-image: url(corkboard.jpg);
+    background-image: url(images/corkboard.jpg);
     background-repeat: repeat;
     background-size: 250px;
     overflow: hidden;
@@ -276,66 +276,70 @@ strong{
 }
 
 #mainMenu ol li:nth-child(1){	
-    background-image: url("blue_balloon.png");
+    background-image: url("images/blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(2){	
-    background-image: url("yellow_balloon.png");
+    background-image: url("images/yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(3){	
-    background-image: url("red_balloon.png");
+    background-image: url("images/red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(4){	
-    background-image: url("blue_balloon.png");
+    background-image: url("images/blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(5){	
-    background-image: url("yellow_balloon.png");
+    background-image: url("images/yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(6){	
-    background-image: url("red_balloon.png");
+    background-image: url("images/red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(7){	
+<<<<<<< HEAD:assignment4/cgraf.css
     background-image: url("blue_balloon.png");
     vertical-align: -1em;
+=======
+    background-image: url("images/blue_balloon.png");
+>>>>>>> origin/master:assignment4/netid.css
 }
 
 #mainMenu ol li:nth-child(1):active{	
-    background-image: url("bluePop.png");
+    background-image: url("images/images/bluePop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(2):active{	
-    background-image: url("yellowPop.png");
+    background-image: url("images/yellowPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(3):active{	
-    background-image: url("redPop.png");
+    background-image: url("images/redPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(4):active{	
-    background-image: url("bluePop.png");
+    background-image: url("images/bluePop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(5):active{	
-    background-image: url("yellowPop.png");
+    background-image: url("images/yellowPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(6):active{	
-    background-image: url("redPop.png");
+    background-image: url("images/redPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(7):active{	
-    background-image: url("bluePop.png");
+    background-image: url("images/bluePop.png");
     background-position: center center;
 }
 
