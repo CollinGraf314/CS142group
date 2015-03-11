@@ -276,7 +276,6 @@ strong{
 }
 
 #mainMenu ol li:nth-child(1){	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/blue_balloon.png");
 }
 
@@ -301,18 +300,12 @@ strong{
 }
 
 #mainMenu ol li:nth-child(7){	
-<<<<<<< HEAD:assignment4/cgraf.css
-    background-image: url("blue_balloon.png");
     vertical-align: -1em;
-=======
     background-image: url("images/blue_balloon.png");
->>>>>>> origin/master:assignment4/netid.css
 }
 
 #mainMenu ol li:nth-child(1):active{	
     background-image: url("images/images/bluePop.png");
-=======
-    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(2){	
@@ -342,61 +335,36 @@ strong{
 
 #mainMenu ol li:nth-child(1):active{	
     background-image: url("bluePop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(2):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/yellowPop.png");
-=======
-    background-image: url("yellowPop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(3):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/redPop.png");
-=======
-    background-image: url("redPop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(4):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/bluePop.png");
-=======
-    background-image: url("bluePop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(5):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/yellowPop.png");
-=======
-    background-image: url("yellowPop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(6):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/redPop.png");
-=======
-    background-image: url("redPop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(7):active{	
-<<<<<<< HEAD:assignment4/netid.css
     background-image: url("images/bluePop.png");
-=======
-    background-image: url("bluePop.png");
->>>>>>> origin/grafdev:assignment4/cgraf.css
     background-position: center center;
 }
 
