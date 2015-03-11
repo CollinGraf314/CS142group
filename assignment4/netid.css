@@ -231,7 +231,7 @@ strong{
     max-height: 150px;
     background-image: url(images/corkboard.jpg);
     background-repeat: repeat;
-    background-size: 270px;
+    background-size: 250px;
     overflow: hidden;
 }
 
@@ -244,7 +244,7 @@ strong{
 }
 
 #mainMenu ol li{
-    background-size: 90px, 90px;
+    background-size: 99%;
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: rotate(40deg); /* IE 9 */
@@ -257,13 +257,16 @@ strong{
     -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
     transform: rotate(-40deg);
     overflow: hidden;
+    padding-top: 1em;
+    padding-bottom: 4em;
     text-align: center;
-    margin-left: 1.45em;
+    margin-top: 10%;
+    margin-left: 10%;
     font-family: "century gothic";
 }
 
 #mainMenu ol li:active{
-    background-size: 90px, 90px;
+    background-size: 95%;
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: rotate(40deg); /* IE 9 */
@@ -297,7 +300,12 @@ strong{
 }
 
 #mainMenu ol li:nth-child(7){	
+<<<<<<< HEAD:assignment4/cgraf.css
+    background-image: url("blue_balloon.png");
+    vertical-align: -1em;
+=======
     background-image: url("images/blue_balloon.png");
+>>>>>>> origin/master:assignment4/netid.css
 }
 
 #mainMenu ol li:nth-child(1):active{	
@@ -337,12 +345,11 @@ strong{
 
 .menuLink{
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 6%;
+    height: 100%;
     margin-left: 2em;
     margin-right: 2.6em;
     text-align: center;
-    padding-top: 2em;
     overflow: hidden;
 }
 .menuLink a{
@@ -350,8 +357,8 @@ strong{
     color: black;
     font-weight: normal;
     font-size: 10pt;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
