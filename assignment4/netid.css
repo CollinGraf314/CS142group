@@ -228,7 +228,11 @@ strong{
     margin: auto;
     margin-top: 2.5em;
     width: 100%;
+<<<<<<< HEAD
+    max-height: 150px;
+=======
     max-height: 170px;
+>>>>>>> master
     background-image: url(images/corkboard.jpg);
     background-repeat: repeat;
     background-size: 250px;
