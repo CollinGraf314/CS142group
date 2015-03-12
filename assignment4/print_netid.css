@@ -4,20 +4,15 @@
 @import url('reset.css');
 
 * {
-    font-size:12pt;
+    font-size:10pt;
 }
 
 .printonly{display:none;}
 html, body {
     height: 100%;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
 }
 
 html{
-    background-image: url("htmlbackground.jpg");
-    background-attachment: fixed;
-    background-size: 100%, 100%;
-    background-position-y: -250px; 
 }
 
 
@@ -33,17 +28,16 @@ a{
 }
 
 a[target="_blank"]{
-    border-bottom: 2px solid red !important;
 }
 
 a:link{
-    color: navy;
     border-style: solid;
     border-color: transparent;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
+    color: black !important;
+    text-decoration: none !important;
 }
 a:visited{
-    color: #6666B3;
+    color: black !important;
     /*#90C13E !important;*/
 }
 a:hover {
@@ -63,11 +57,11 @@ h1, h2, h3 {
 }
 
 h1{
-    font-size:2em;
+    font-size:1.5em;
 }
 
 h2, h2 a{
-    font-size:1.5em;
+    font-size:1em;
 }
 
 h3{
@@ -84,7 +78,7 @@ img {
 }
 
 p {
-    padding: .4em 0 .8em 0;;
+    padding: .3em 0 .6em 0;;
     margin: 0;
     font-family: "century gothic";
 }
@@ -122,21 +116,13 @@ strong{
 /* ===================  Header  Section  ==================================== */
 
 #topbox{
-    width: 80%;
+    width: 95%;
     margin-left:auto;
     margin-right: auto;
-    background-image: url("CircusTent__Converted_.jpg");
-    background-position: -210px, -400px;
-    overflow: hidden;
-    border-left: thick solid black;
-    border-right: thick solid black;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
+    overflow: hidden
 }
 #header {
-    background-color: #3B5998;
     border-bottom:1px solid #000;
-    color: #fff;
     padding:10px;
 }
 
@@ -145,7 +131,6 @@ strong{
 }
 
 #header a:hover{
-    background-color:#6D86B7;
 }
 
 #classtitle{
@@ -184,19 +169,19 @@ strong{
 }
 
 #classRank{
-    font-size: 14pt;
+    font-size: 12pt;
     margin-left: 8%;
     margin-right: 8%;
 }
 
 #studentName{
-    font-size: 14pt;
+    font-size: 12pt;
     margin-left: 8%;
     margin-right:8%;
 }
 
 #studentGrade{
-    font-size: 14pt;
+    font-size: 12pt;
     display:inline-block;
     margin-left: 8%;
     margin-right: 8%;
@@ -216,178 +201,28 @@ strong{
     font-weight: bold;
     font-size: 16pt;
     color: #ff0000;
-    background: #ff3;	
 }
 
 /* ===================  Main Navigation Section  ============================ */
 #mainMenu{
     /* border-bottom: thin solid #3B5998;
      float: right;*/
-    font-size: 10pt;
-    margin: auto;
-    margin-top: 2.5em;
-    width: 100%;
-    max-height: 150px;
-    background-image: url(corkboard.jpg);
-    background-repeat: repeat;
-    background-size: 250px;
-    overflow: hidden;
-}
-
-#mainMenu ol{
-
-}
-
-#mainMenu a{
-    text-decoration: none;
-}
-
-#mainMenu ol li{
-    background-size: 99%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    -ms-transform: rotate(40deg); /* IE 9 */
-    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
-    transform: rotate(40deg);
-}
-
-#mainMenu ol li a{
-    -ms-transform: rotate(-40deg); /* IE 9 */
-    -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
-    transform: rotate(-40deg);
-    overflow: hidden;
-    padding-top: 2em;
-    padding-bottom: 4em;
-    text-align: center;
-    margin-top: 10%;
-    margin-left: 8%;
-    font-size: 8pt;
-    font-weight: bold;
-    font-family: "century gothic";
-}
-
-#mainMenu ol li:active{
-    background-size: 95%;
-    background-repeat: no-repeat;
-    display: inline-block;
-    -ms-transform: rotate(40deg); /* IE 9 */
-    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
-    transform: rotate(40deg);
-    overflow: hidden;
-}
-
-#mainMenu ol li:nth-child(1){	
-    background-image: url("blue_balloon.png");
-}
-
-#mainMenu ol li:nth-child(2){	
-    background-image: url("yellow_balloon.png");
-}
-
-#mainMenu ol li:nth-child(3){	
-    background-image: url("red_balloon.png");
-}
-
-#mainMenu ol li:nth-child(4){	
-    background-image: url("blue_balloon.png");
-}
-
-#mainMenu ol li:nth-child(5){	
-    background-image: url("yellow_balloon.png");
-}
-
-#mainMenu ol li:nth-child(6){	
-    background-image: url("red_balloon.png");
-}
-
-#mainMenu ol li:nth-child(7){	
-    background-image: url("blue_balloon.png");
-    vertical-align: -1em;
-}
-
-#mainMenu ol li:nth-child(1):active{	
-    background-image: url("bluePop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(2):active{	
-    background-image: url("yellowPop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(3):active{	
-    background-image: url("redPop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(4):active{	
-    background-image: url("bluePop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(5):active{	
-    background-image: url("yellowPop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(6):active{	
-    background-image: url("redPop.png");
-    background-position: center center;
-}
-
-#mainMenu ol li:nth-child(7):active{	
-    background-image: url("bluePop.png");
-    background-position: center center;
-}
-
-.menuLink{
-    display: block;
-    width: 6%;
-    height: 100%;
-    margin-left: 2em;
-    margin-right: 2.6em;
-    text-align: center;
-    overflow: hidden;
-}
-.menuLink a{
-    display: block;
-    color: black;
-    font-weight: normal;
-    font-size: 10pt;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.menuLink a:link{
-}
-
-nav#mainMenu ol li.menuLink a:visited{
-}
-.menuLink a:hover{
+    display:none;
 }
 
 /* ===================  Main Content Section  =============================== */
 #mainContent {
-    background-color: rgba(255,255,255,.5);
-    border-left: thick solid black;
-    border-right: thick solid black;
-    width: 72%;
-    padding-left: 4%;
-    padding-right: 4%;
+    width: 95%;
     margin: auto;
     overflow: auto;
 }
 
 .body {
-    background-image: url(do!rwy2.png);
-    background-repeat: repeat;
     border-left: thick solid black;
     border-right: thick solid black;
 }
 
 #mainContent a:visited{
-    color: #6666b3; /*#ffaa11;*/
 }
 
 
@@ -401,42 +236,19 @@ div[style*="background"], .code{
 /* -------------------------- Grades ---------------------------------------- */
 
 /* -- used for automatic grading -- */
-.certain{
-    background: #66aa66;
-}
-
-.uncertain{
-    background: #fff000;
-}
-/* -------------------------------- */
-.newCriteria{
-    background: #eeffee;
-}
-
-.oldCriteria{
-    background: #ffffff;
-}
-.wrongCriteria{
-    background: #ffeeee;
-}
 
 .zeroPoints {
     border: thin solid black;
 }
 .bonusPoints{
-    border: thin solid blue;
 }
 .avggrade {
-    background-color: #ffffcc !important;
-    color: #ffcccc;
 }
 
 .failing {
-    background-color: red !important;
 }
 
 .hypo {
-    background-color: lightgreen !important;
 }
 .percent{
     float: right;
@@ -448,8 +260,6 @@ div[style*="background"], .code{
 }
 
 .GradesReleased {
-    background-color: #66cc00 !important; 
-    color: #ffffff !important;
 }
 .GradesReleased a:visited, .GradesReleased a:link{
     color: #ffffff !important;
@@ -459,17 +269,12 @@ div[style*="background"], .code{
 }
 
 .GradingStarted {
-    background-color: #fff000 !important; 
     color: #000000 !important;
 }
 
 .NotGraded {
-    background-color: #aa0000; 
-    color: #ffffcc;
 }
 #listStudents span.NotGraded {
-    background-color: #aa0000; 
-    color: #ffffcc;
 }
 
 #listStudents span.notSubmitted:before{
@@ -535,7 +340,6 @@ table#grading, table#grading td, table#grading th{
 }
 /* -------------------  Assignment / Lectures pages  ------------------------ */
 .assignment a{
-    color: #cc4444;
 }
 
 ol.webReviewList li{
@@ -549,7 +353,6 @@ ol.webReviewList li.hidden{
 }
 
 ol.webReviewList li.tentative{
-    background-color: #ffcfcf;
     font-style: italic;
 }
 
@@ -558,13 +361,11 @@ ol.webReviewList li.tentative:before{
 }
 
 .current{
-    border: thin solid #C3C3E5;
     font-weight: bold;
 }
 
 /* the perr grading page to highlight the current student you are working on */
 #peerGrade .current{
-    border: thick solid #C3C3E5;
     font-weight: bold;
 }
 #peerGrade ol li{
@@ -572,7 +373,6 @@ ol.webReviewList li.tentative:before{
 
 }
 .notStudentLink{ /* for instructor to see link is not avaliable to students */
-    background-color: #ffa;
 }
 
 .summary{
@@ -601,7 +401,6 @@ figure.img-left{
 }
 figcaption{
     text-align: center;
-    color: #839E99;
     font-style: italic; 
 }
 
@@ -626,15 +425,15 @@ figcaption{
 #otherMedia ol li{
     list-style-type: none;
     clear: both;
-    border-top: thin dotted  #999999;
+    border-top: thin dotted  #000;
     padding-top: .4em;
     padding-bottom: .4em;
     
 }
 
 #otherMedia ol li a[href*="http://"]{
-    border-left: darkblue solid medium;
-    border-bottom: darkblue solid medium;
+    border-left: black solid medium;
+    border-bottom: black solid medium;
     padding-left: 1em;
     padding-right: 1em;
 
@@ -665,13 +464,10 @@ figcaption{
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Calendar page         ------------------------------- */
 .Absent{
-    color: #ffbfbf !important;
-    background: #aa0011 !important;
     text-align: center;	
 }
 
 .assignment{
-    color: #cc4444;
     margin:0;
     padding: 0.125em 0.25em 0 0.25em;
     text-align:center; 	 
@@ -689,13 +485,11 @@ div.date{
     border-width: 0 0 1px 1px; 
     padding: 0.125em 0.25em 0 0.25em; 
     margin:0;  
-    background: #F3F3F3; 
+    background: #FFF; 
     width: 2em;
 }
 
 .Excused{
-    color: #aa0011 !important;
-    background: #ffadad !important;
     text-align: center;	
 }
 
@@ -705,60 +499,45 @@ div.date{
 }
 
 .labComplete{
-    color: #24B300 !important;
-    background: #ffcfcf !important;
     text-align: center;	
 }
 
 .FreeDay{
-    color: #24B300 !important;
-    background: #aacfcf !important;
     text-align: center;	
 }
 
 .Late{
-    color: #24B300 !important;
-    background: #ddffdf !important;
     text-align: center;	
 }
 
 .Personal{
-    color: #aa0011 !important;
-    background: #ffcfcf !important;
     text-align: center;	
 }
 
 .Present{
-    color: #24B300 !important;
-    background: #CCFFBF !important;
     text-align: center;
 }
 
 .presentation{
-    border: dashed medium #ff0000 !important;
 }
 .Sick{
-    color: #aa0011 !important;
-    background: #ffadad !important;
     text-align: center;	
 }
 
 .submitted{
-    border: thin solid green;
+    border: thin solid black;
 }
 
 .notSubmitted{
-    border:thin solid red;
+    border:thin solid black;
 }
 .TOPIC { 
-    color: #4444CC; 
     text-align:center; 
     padding: 0.125em 0.25em 0 0; 
     margin:0;  
 }
 
 .VACA {
-    background-color: #dfdfff; /*#EABFFF;*/ 
     font-style: italic;
 }
 
@@ -775,12 +554,12 @@ ol.taVisists li.null:before{
 }
 
 ol.taVisists li.Show{
-    background: none repeat scroll 0 0 #ccffbf !important;
-    color: #24b300 !important;
+    background: none repeat scroll 0 0 #fff !important;
+    color: #fff !important;
 }
 ol.taVisists li.NoShow{
-    background: none repeat scroll 0 0 #aa0011 !important;
-    color: #ffbfbf !important;
+    background: none repeat scroll 0 0 #000 !important;
+    color: #fff !important;
 }
 
 tr.days{
@@ -792,7 +571,7 @@ tr.days th.sat, tr.days th.sun {
 }
 
 #calendar table tr.days th,  table tr.days th {
-    background-color: firebrick;
+    background-color: black;
     color: white;
     font-weight: bold;
     padding: 1px 0.33em;
@@ -800,18 +579,15 @@ tr.days th.sat, tr.days th.sun {
 }
 
 #calendar table tr#title th {
-    background-color: #AAC; 
     color: black;
     border: 1px solid #242;
     font-size: 120%;
 }
 
 #calendar table tr:nth-child(even){
-    background-color: rgba(0,150,255,.25);
 }
 
 #calendar table tr:nth-child(odd){
-    background-color: rgba(255,0,0,.25);
 }
 
 #calendar #vcalendar tbody .monthHeader {
@@ -861,22 +637,22 @@ td.Jun div.date, td.Aug div.date{
 }	
 
 #calendar table td.Sat, #calendar table td.Sun {
-    background: #ddd;
+    background: #fff;
 }
 
 #calendar table td.lastMonth, #calendar table td.nextMonth, #calendar table td.prevMonth {
-    background: #AAB; 
-    color: #889;
+    background: #fff; 
+    color: #000;
 }
 
 #calendar table tr#lastweek td {
-    border-bottom: 2px solid #AAB;
+    border-bottom: 2px solid #fff;
 }
 
 #calendar table td.atoday {
-    color: #C33;
+    color: #000;
     font-weight: bold; 
-    background: #FF6; 
+    background: #fff; 
     border: 1px solid black;
 }
 
@@ -893,53 +669,39 @@ td.Jun div.date, td.Aug div.date{
 }
 
 .emailText{
-    color: #adadad;
 }
 .highlightRed{ 
-    background-color: #cc0033;
     color: #ffffff;
 }
 
 #syllabus table, #syllabus table td, #syllabus table th{
     border: 1px solid gray; 
-    padding: 3px; 
 }
 #tahours .hourBox:hover{
     background-color: highlight;
     color: white;
 }
 #tahours .hourBox{
-    padding: .3em;
-    border: thin solid blue;
-    border-radius: 8px;
     text-align: center;
-    left: 0;
 }
 
 #tahours span{
-    display: block;
 }
 #tahours .dayColumn{
-    border: thin solid;
-    float: left;
-    font-size: 10px;
-    width: 12.8793%;
+    display: none;
 }
 #tahours .header{
     text-align: center;
     font-weight: bold;
 }
-#tahours a:hover{
-    background-color: highlight;
-
+#tahours .header:after{
+    content: "hours not displayed."; 
 }
-
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Submit Assignment Page  ----------------------------- */
 #filesSubmited{
     clear: both;
-    border-top: 1px dashed navy;
-    padding: 1em 1em 1em 1em;
+    border-top: 1px dashed black;
 }
 #submitAssignment iframe{ 
     width:70%;
@@ -950,7 +712,7 @@ td.Jun div.date, td.Aug div.date{
 }
 
 .submith1{font-weight: bold;
-          font-size: 14pt;
+          font-size: 12pt;
 }
 
 #submitAssignments{
@@ -958,14 +720,9 @@ td.Jun div.date, td.Aug div.date{
 }
 
 .AssignmentsLink li{
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: "century gothic";
 }
-
-#txtDateRequest{
-    width: 7em;
-}
-
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Lecture Page          ------------------------------- */
 #frmDemo{
@@ -984,10 +741,10 @@ td.Jun div.date, td.Aug div.date{
 #frmDemo table, #tblValidation {
     margin: auto;
     border-collapse: collapse; 
-    border: 1px solid #839E99;
-    background: #f1f8ee; 
+    border: 1px solid #fff;
+    background: #fff; 
     font: .7em Georgia, "Times New Roman", Times, serif; 
-    color: #033; 
+    color: #000; 
 }
 
 #frmDemo table td, #frmDemo table th, #tblValidation td, #tblValidation th { padding: 3px 3px .75em 10px; line-height: 1.3em; 	border: thin dotted gray;}
@@ -1003,7 +760,7 @@ td.Jun div.date, td.Aug div.date{
     border: thin dotted gray; 
 }
 
-#frmDemo, #tblValidation .odd {background-color: #DBE6DD;}
+#frmDemo, #tblValidation .odd {background-color: #eeeeee;}
 #frmDemo, #tblValidation .even {background-color: #ffffff;}
 
 #sampleData table, #sampleData td, #sampleData th {
@@ -1027,12 +784,12 @@ div #studentComments{
     /* clear: all;*/
 }
 #studentComments {
-    background-color: #E7E7E7;
+    background-color: #ffffff;
     margin-top: 1em;
 }
 
 #commentHeader{
-    background-color: #E0E0E0;
+    background-color: #fff;
     padding: .2em;
 }
 
@@ -1065,7 +822,7 @@ div #studentComments{
 /* -------------------  lecture slide page   ------------------------------- */
 
 #otherMedia{
-    background-color: #FFF8DC;
+    background-color: #FFF;
     border: 2px solid;
     border-radius: 0.5em;
     clear: right;
@@ -1108,76 +865,27 @@ div #studentComments{
 #media #otherMedia ol li:nth-child(odd) {
     clear: none;
     border-radius: 1em;
-    background-color: rgb(255,150,150);
 }
 
 #media #otherMedia ol li:nth-child(even) {
     clear: none;
     border-radius: 1em;
-    background-color: rgb(170,250,255);
 }
 /* -------------------upcoming aside  ------------------------------- */
 
-aside {
-    margin-right: -45px;
-    min-width: 200px;
+aside#upcoming, aside#otherMedia {
+    display:none;
 }
-
-aside#upcoming{
-    background-color: rgb(255,250,50);
-    border: 2px solid;
-    border-radius: 0.5em;
-    clear: both;
-    float: right;
-    font-size: 8px;
-    margin-left: 1em;
-    padding: 0.5em;
-    width: 20em;
-}
-#upcoming div.box{
-    clear: both;
-    padding-left: .5em;
-}
-
-aside#otherMedia{
-    background-color: rgb(255,250,50);
-}
-
-#upcoming h2{
-    float: left;
-    margin: 0;
-}
-
-#upcoming ol li{
-    display: inline-block;
-    margin:0;
-    padding-left: .2em;
-}
-
-#upcoming ol.LecturesLink, #upcoming ol.AssignmentLink, #upcoming ol.examLink{
-    padding-left: 0;
-}
-
-.AssignmentLink li{
-    font-size: 14pt;
-    font-family: "century gothic";
-}
-
-.examLink li {
-    font-size: 14pt;
-    font-family: "century gothic";
-}
-
 /* ===================  Footer Section        =============================== */
 footer{
-    background-color: #3B5998;
-    border: 2px solid #3B5998;
+    background-color: #fff;
+    border: 2px solid #000;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     border-left: thick solid black;
     border-right: thick solid black;
     clear: both;
-    color: #FFFFFF;
+    color: #000;
     height: 50px;
     left: 0;
     margin-top: -50px;
@@ -1228,7 +936,7 @@ ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; f
 ul#icons span.ui-icon {float: left; margin: 0 4px;}
 
 body{
-    color: #2C2C2C;
+    color: #000;
     font: normal 100% Cambria, Georgia, serif;
     width: 100%;
     margin: 0 auto;
@@ -1245,22 +953,22 @@ h1{
 
 /* ===================  Header  Section  ==================================== */
 #header {
-    background-color: #3B5998;
+    background-color: #fff;
     border-bottom:1px solid #000;
-    color: #fff;
+    color: #000;
     padding:10px;
 }
 
 #header a:link, #header a:visited{
-    color: #fff;
+    color: #000;
 }
 
 #header a:hover{
-    background-color:#6D86B7;
+    background-color:#fff;
 }
 
 #classtitle{
-    font-size: 1.3em;
+    font-size: 15pt;
     font-weight:bold;
 }
 
@@ -1319,7 +1027,7 @@ media query templates
 
 @media screen and (max-width: 480px){
     body{
-        color: #2C2C2C;
+        color: #000;
         font: normal 100% Cambria, Georgia, serif;
 
         margin: 0 auto;
@@ -1338,7 +1046,7 @@ media query templates
 
 @media screen and (max-width: 520px){
     body{
-        color: #2C2C2C;
+        color: #000;
         font: normal 100% Cambria, Georgia, serif;
         margin: 0 auto;
     }	
@@ -1354,7 +1062,7 @@ media query templates
 
 @media screen and (max-width: 768px){
     body{
-        color: #2C2C2C;
+        color: #000;
         font: normal 100% Cambria, Georgia, serif;
         margin: 0 auto;
     }	
