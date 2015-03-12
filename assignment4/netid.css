@@ -159,6 +159,7 @@ strong{
     font-size: 20px;
     font-weight:bold;
     text-decoration: none;
+    color: black;
 }
 
 .todaysdate{
@@ -227,7 +228,7 @@ strong{
     margin: auto;
     margin-top: 2.5em;
     width: 100%;
-    max-height: 150px;
+    max-height: 170px;
     background-image: url(corkboard.jpg);
     background-repeat: repeat;
     background-size: 250px;
@@ -629,6 +630,7 @@ figcaption{
     border-top: thin dotted  #999999;
     padding-top: .4em;
     padding-bottom: .4em;
+    margin-bottom: 1em;
     
 }
 
@@ -1086,7 +1088,7 @@ div #studentComments{
     margin-left:1.5em;
 }
 
-#media #otherMedia{
+#media aside#otherMedia{
     background-color: rgba(255,255,255,0);
     border: none;
     border-radius: 0;
@@ -1124,7 +1126,6 @@ aside {
 }
 
 aside#upcoming{
-    background-color: rgb(255,250,50);
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
@@ -1133,6 +1134,10 @@ aside#upcoming{
     margin-left: 1em;
     padding: 0.5em;
     width: 20em;
+    background: -webkit-linear-gradient(180deg, lightcyan, gainsboro); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, lightcyan, gainsboro); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, lightcyan, gainsboro); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, lightcyan, gainsboro); /* Standard syntax (must be last) */
 }
 #upcoming div.box{
     clear: both;
@@ -1140,7 +1145,10 @@ aside#upcoming{
 }
 
 aside#otherMedia{
-    background-color: rgb(255,250,50);
+    background: -webkit-linear-gradient(0deg, grey, gainsboro); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, grey, gainsboro); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, grey, gainsboro); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, grey, gainsboro); /* Standard syntax (must be last) */
 }
 
 #upcoming h2{
