@@ -14,7 +14,7 @@ html, body {
 }
 
 html{
-    background-image: url("htmlbackground.jpg");
+    background-image: url("images/htmlbackground.jpg");
     background-attachment: fixed;
     background-size: 100%, 100%;
     background-position-y: -250px; 
@@ -125,7 +125,7 @@ strong{
     width: 80%;
     margin-left:auto;
     margin-right: auto;
-    background-image: url("CircusTent__Converted_.jpg");
+    background-image: url("images/CircusTent__Converted_.jpg");
     background-position: -210px, -400px;
     overflow: hidden;
     border-left: thick solid black;
