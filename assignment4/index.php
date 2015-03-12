@@ -8,8 +8,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- https://rerickso.w3.uvm.edu/education/blackboard/css/base.css -->
 <!-- https://cgraf.w3.uvm.edu/cs142/assignment4/cgraf.css -->
-<link href="https://cgraf.w3.uvm.edu/cs142/assignment4/cgraf.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="https://cgraf.w3.uvm.edu/cs142/assignment4/print_cgraf.css" rel="stylesheet" type="text/css" media="print" />
+<link href="https://netid.w3.uvm.edu/cs142/assignment4 netid.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://netid.w3.uvm.edu/cs142/assignment4/print_netid.css" rel="stylesheet" type="text/css" media="print" />
 <link href="css/mainAdmin.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="shortcut icon" href="https://rerickso.w3.uvm.edu/education/blackboard/favicon.ico" >
 
@@ -64,7 +64,7 @@ $(function() {
 
 <aside id="studentInfo"> <!-- %^%^%^%^%^ studentInfo %^%^%^%^%^ -->
 <span id="studentName">
-Student: cgraf [<a href="https://webauth.uvm.edu/webauth/logout">logout</a>]
+Student: netid [<a href="https://webauth.uvm.edu/webauth/logout">logout</a>]
 </span>
 <span id="studentGrade" >Current <a href="https://rerickso.w3.uvm.edu/education/blackboard/grades.php">Grade</a>: 84.4</span>
 <span id="classRank">

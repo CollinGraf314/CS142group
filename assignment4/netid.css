@@ -48,7 +48,6 @@ a:visited{
 }
 a:hover {
     font-weight: bold;
-    background-color: rgba(220,220,220,.4);
 }
 
 code{
@@ -231,7 +230,7 @@ strong{
     max-height: 150px;
     background-image: url(corkboard.jpg);
     background-repeat: repeat;
-    background-size: 270px;
+    background-size: 250px;
     overflow: hidden;
 }
 
@@ -244,7 +243,7 @@ strong{
 }
 
 #mainMenu ol li{
-    background-size: 90px, 90px;
+    background-size: 99%;
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: rotate(40deg); /* IE 9 */
@@ -257,13 +256,18 @@ strong{
     -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
     transform: rotate(-40deg);
     overflow: hidden;
+    padding-top: 2em;
+    padding-bottom: 4em;
     text-align: center;
-    margin-left: 1.45em;
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 8pt;
+    font-weight: bold;
     font-family: "century gothic";
 }
 
-#mainMenu ol li:hover{
-    background-size: 100px, 100px;
+#mainMenu ol li:active{
+    background-size: 95%;
     background-repeat: no-repeat;
     display: inline-block;
     -ms-transform: rotate(40deg); /* IE 9 */
@@ -273,76 +277,76 @@ strong{
 }
 
 #mainMenu ol li:nth-child(1){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(2){	
-    background-image: url("yellow_balloon.jpg");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(3){	
-    background-image: url("red_balloon.jpg");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(4){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(5){	
-    background-image: url("yellow_balloon.jpg");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(6){	
-    background-image: url("red_balloon.jpg");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(7){	
-    background-image: url("blue_balloon.jpg");
+    background-image: url("blue_balloon.png");
+    vertical-align: -1em;
 }
 
-#mainMenu ol li:nth-child(1):hover{	
+#mainMenu ol li:nth-child(1):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(2):hover{	
+#mainMenu ol li:nth-child(2):active{	
     background-image: url("yellowPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(3):hover{	
+#mainMenu ol li:nth-child(3):active{	
     background-image: url("redPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(4):hover{	
+#mainMenu ol li:nth-child(4):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(5):hover{	
+#mainMenu ol li:nth-child(5):active{	
     background-image: url("yellowPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(6):hover{	
+#mainMenu ol li:nth-child(6):active{	
     background-image: url("redPop.png");
     background-position: center center;
 }
 
-#mainMenu ol li:nth-child(7):hover{	
+#mainMenu ol li:nth-child(7):active{	
     background-image: url("bluePop.png");
     background-position: center center;
 }
 
 .menuLink{
     display: block;
-    width: 90px;
-    height: 90px;
+    width: 6%;
+    height: 100%;
     margin-left: 2em;
     margin-right: 2.6em;
     text-align: center;
-    padding-top: 2em;
     overflow: hidden;
 }
 .menuLink a{
@@ -350,8 +354,8 @@ strong{
     color: black;
     font-weight: normal;
     font-size: 10pt;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -577,7 +581,6 @@ ol.webReviewList li.tentative:before{
 
 .title{
     padding: .5em;
-    font-size: 30pt;
     text-decoration: none;
 }
 
@@ -789,8 +792,8 @@ tr.days th.sat, tr.days th.sun {
 }
 
 #calendar table tr.days th,  table tr.days th {
-    background-color: #224;
-    color: #cce;
+    background-color: firebrick;
+    color: white;
     font-weight: bold;
     padding: 1px 0.33em;
     text-align: center;
@@ -801,6 +804,26 @@ tr.days th.sat, tr.days th.sun {
     color: black;
     border: 1px solid #242;
     font-size: 120%;
+}
+
+#calendar table tr:nth-child(even){
+    background-color: rgba(0,150,255,.25);
+}
+
+#calendar table tr:nth-child(odd){
+    background-color: rgba(255,0,0,.25);
+}
+
+#calendar #vcalendar tbody .monthHeader {
+    background-color: white;
+}
+
+.days th:nth-child(1){
+    border-top-left-radius: 2em;
+}
+
+.days th:nth-child(7){
+    border-top-right-radius: 2em;
 }
 
 #vcalendar{
@@ -1053,8 +1076,18 @@ div #studentComments{
     width: 20em;
 }
 
+#otherMedia ol{
+    padding-left:0;
+    margin-left:0;
+}
+
+#otherMedia ol li figure{
+    padding-left:0;
+    margin-left:1.5em;
+}
+
 #media #otherMedia{
-    background-color: white;
+    background-color: rgba(255,255,255,0);
     border: none;
     border-radius: 0;
     clear: none;
@@ -1069,15 +1102,29 @@ div #studentComments{
 }
 #media #otherMedia ol li {
     clear: none;
+    border-radius: 1em;
+}
+
+#media #otherMedia ol li:nth-child(odd) {
+    clear: none;
+    border-radius: 1em;
+    background-color: rgb(255,150,150);
+}
+
+#media #otherMedia ol li:nth-child(even) {
+    clear: none;
+    border-radius: 1em;
+    background-color: rgb(170,250,255);
 }
 /* -------------------upcoming aside  ------------------------------- */
 
 aside {
     margin-right: -45px;
+    min-width: 200px;
 }
 
 aside#upcoming{
-    background-color: #FFF8DC;
+    background-color: rgb(255,250,50);
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
@@ -1089,10 +1136,11 @@ aside#upcoming{
 }
 #upcoming div.box{
     clear: both;
+    padding-left: .5em;
 }
 
 aside#otherMedia{
-    
+    background-color: rgb(255,250,50);
 }
 
 #upcoming h2{
