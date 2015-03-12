@@ -1076,8 +1076,18 @@ div #studentComments{
     width: 20em;
 }
 
+#otherMedia ol{
+    padding-left:0;
+    margin-left:0;
+}
+
+#otherMedia ol li figure{
+    padding-left:0;
+    margin-left:1.5em;
+}
+
 #media #otherMedia{
-    background-color: white;
+    background-color: rgba(255,255,255,0);
     border: none;
     border-radius: 0;
     clear: none;
@@ -1092,6 +1102,19 @@ div #studentComments{
 }
 #media #otherMedia ol li {
     clear: none;
+    border-radius: 1em;
+}
+
+#media #otherMedia ol li:nth-child(odd) {
+    clear: none;
+    border-radius: 1em;
+    background-color: rgb(255,150,150);
+}
+
+#media #otherMedia ol li:nth-child(even) {
+    clear: none;
+    border-radius: 1em;
+    background-color: rgb(170,250,255);
 }
 /* -------------------upcoming aside  ------------------------------- */
 
@@ -1101,7 +1124,7 @@ aside {
 }
 
 aside#upcoming{
-    background-color: #FFF8DC;
+    background-color: rgb(255,250,50);
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
@@ -1113,10 +1136,11 @@ aside#upcoming{
 }
 #upcoming div.box{
     clear: both;
+    padding-left: .5em;
 }
 
 aside#otherMedia{
-    
+    background-color: rgb(255,250,50);
 }
 
 #upcoming h2{
