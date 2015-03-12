@@ -48,7 +48,6 @@ a:visited{
 }
 a:hover {
     font-weight: bold;
-    background-color: rgba(220,220,220,.4);
 }
 
 code{
@@ -257,11 +256,13 @@ strong{
     -webkit-transform: rotate(-40deg); /* Chrome, Safari, Opera */
     transform: rotate(-40deg);
     overflow: hidden;
-    padding-top: 1em;
+    padding-top: 2em;
     padding-bottom: 4em;
     text-align: center;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 8%;
+    font-size: 8pt;
+    font-weight: bold;
     font-family: "century gothic";
 }
 
@@ -580,7 +581,6 @@ ol.webReviewList li.tentative:before{
 
 .title{
     padding: .5em;
-    font-size: 30pt;
     text-decoration: none;
 }
 
@@ -792,8 +792,8 @@ tr.days th.sat, tr.days th.sun {
 }
 
 #calendar table tr.days th,  table tr.days th {
-    background-color: #224;
-    color: #cce;
+    background-color: firebrick;
+    color: white;
     font-weight: bold;
     padding: 1px 0.33em;
     text-align: center;
@@ -804,6 +804,26 @@ tr.days th.sat, tr.days th.sun {
     color: black;
     border: 1px solid #242;
     font-size: 120%;
+}
+
+#calendar table tr:nth-child(even){
+    background-color: rgba(0,150,255,.25);
+}
+
+#calendar table tr:nth-child(odd){
+    background-color: rgba(255,0,0,.25);
+}
+
+#calendar #vcalendar tbody .monthHeader {
+    background-color: white;
+}
+
+.days th:nth-child(1){
+    border-top-left-radius: 2em;
+}
+
+.days th:nth-child(7){
+    border-top-right-radius: 2em;
 }
 
 #vcalendar{
@@ -1077,6 +1097,7 @@ div #studentComments{
 
 aside {
     margin-right: -45px;
+    min-width: 200px;
 }
 
 aside#upcoming{
