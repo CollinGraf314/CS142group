@@ -1076,6 +1076,16 @@ div #studentComments{
     width: 20em;
 }
 
+#otherMedia ol{
+    padding-left:0;
+    margin-left:0;
+}
+
+#otherMedia ol li figure{
+    padding-left:0;
+    margin-left:1.5em;
+}
+
 #media #otherMedia{
     background-color: white;
     border: none;
@@ -1113,6 +1123,7 @@ aside#upcoming{
 }
 #upcoming div.box{
     clear: both;
+    padding-left: .5em;
 }
 
 aside#otherMedia{
