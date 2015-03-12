@@ -10,11 +10,11 @@
 .printonly{display:none;}
 html, body {
     height: 100%;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
+    cursor:url(images/spo149.gif),url(myBall.cur),auto;
 }
 
 html{
-    background-image: url("htmlbackground.jpg");
+    background-image: url("images/htmlbackground.jpg");
     background-attachment: fixed;
     background-size: 100%, 100%;
     background-position-y: -250px; 
@@ -40,7 +40,7 @@ a:link{
     color: navy;
     border-style: solid;
     border-color: transparent;
-    cursor:url(spo149.gif),url(myBall.cur),auto;
+    cursor:url(images/spo149.gif),url(myBall.cur),auto;
 }
 a:visited{
     color: #6666B3;
@@ -159,6 +159,7 @@ strong{
     font-size: 20px;
     font-weight:bold;
     text-decoration: none;
+    color: black;
 }
 
 .todaysdate{
@@ -227,7 +228,11 @@ strong{
     margin: auto;
     margin-top: 2.5em;
     width: 100%;
+<<<<<<< HEAD
     max-height: 150px;
+=======
+    max-height: 170px;
+>>>>>>> master
     background-image: url(images/corkboard.jpg);
     background-repeat: repeat;
     background-size: 250px;
@@ -629,6 +634,7 @@ figcaption{
     border-top: thin dotted  #999999;
     padding-top: .4em;
     padding-bottom: .4em;
+    margin-bottom: 1em;
     
 }
 
@@ -1086,7 +1092,7 @@ div #studentComments{
     margin-left:1.5em;
 }
 
-#media #otherMedia{
+#media aside#otherMedia{
     background-color: rgba(255,255,255,0);
     border: none;
     border-radius: 0;
@@ -1124,7 +1130,6 @@ aside {
 }
 
 aside#upcoming{
-    background-color: rgb(255,250,50);
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
@@ -1133,6 +1138,10 @@ aside#upcoming{
     margin-left: 1em;
     padding: 0.5em;
     width: 20em;
+    background: -webkit-linear-gradient(180deg, lightcyan, gainsboro); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(180deg, lightcyan, gainsboro); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(180deg, lightcyan, gainsboro); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(180deg, lightcyan, gainsboro); /* Standard syntax (must be last) */
 }
 #upcoming div.box{
     clear: both;
@@ -1140,7 +1149,10 @@ aside#upcoming{
 }
 
 aside#otherMedia{
-    background-color: rgb(255,250,50);
+    background: -webkit-linear-gradient(0deg, grey, gainsboro); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(0deg, grey, gainsboro); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(0deg, grey, gainsboro); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(0deg, grey, gainsboro); /* Standard syntax (must be last) */
 }
 
 #upcoming h2{
