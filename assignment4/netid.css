@@ -10,11 +10,11 @@
 .printonly{display:none;}
 html, body {
     height: 100%;
-    cursor:url(images/spo149.gif),url(myBall.cur),auto;
+    cursor:url(spo149.gif),url(myBall.cur),auto;
 }
 
 html{
-    background-image: url("images/htmlbackground.jpg");
+    background-image: url("htmlbackground.jpg");
     background-attachment: fixed;
     background-size: 100%, 100%;
     background-position-y: -250px; 
@@ -40,7 +40,7 @@ a:link{
     color: navy;
     border-style: solid;
     border-color: transparent;
-    cursor:url(images/spo149.gif),url(myBall.cur),auto;
+    cursor:url(spo149.gif),url(myBall.cur),auto;
 }
 a:visited{
     color: #6666B3;
@@ -125,7 +125,7 @@ strong{
     width: 80%;
     margin-left:auto;
     margin-right: auto;
-    background-image: url("images/CircusTent__Converted_.jpg");
+    background-image: url("CircusTent__Converted_.jpg");
     background-position: -210px, -400px;
     overflow: hidden;
     border-left: thick solid black;
@@ -159,7 +159,6 @@ strong{
     font-size: 20px;
     font-weight:bold;
     text-decoration: none;
-    color: black;
 }
 
 .todaysdate{
@@ -229,11 +228,16 @@ strong{
     margin-top: 2.5em;
     width: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     max-height: 150px;
 =======
     max-height: 170px;
 >>>>>>> master
     background-image: url(images/corkboard.jpg);
+=======
+    max-height: 150px;
+    background-image: url(corkboard.jpg);
+>>>>>>> parent of ee0e640... animation
     background-repeat: repeat;
     background-size: 250px;
     overflow: hidden;
@@ -271,27 +275,6 @@ strong{
     font-family: "century gothic";
 }
 
-#mainMenu ol li:hover{
-    -webkit-animation: example 1.5s infinite; /* Safari */  
-    animation: example 1.5s infinite;
-}
-
-/* Safari */
-@-webkit-keyframes example {
-  0%  { -webkit-transform:  rotate(40deg); }
-  25%  { -webkit-transform:  rotate(37deg); }
-  60%  { -webkit-transform:  rotate(43deg); }
-  100%  { -webkit-transform:  rotate(40deg); }
-}
-
-/* Standard syntax */
-@keyframes example {
-  0%  { -webkit-transform:  rotate(40deg); }
-  25%  { -webkit-transform:  rotate(37deg); }
-  60%  { -webkit-transform:  rotate(43deg); }
-  100%  { -webkit-transform:  rotate(40deg); }
-}
-
 #mainMenu ol li:active{
     background-size: 95%;
     background-repeat: no-repeat;
@@ -303,66 +286,66 @@ strong{
 }
 
 #mainMenu ol li:nth-child(1){	
-    background-image: url("images/blue_balloon.png");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(2){	
-    background-image: url("images/yellow_balloon.png");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(3){	
-    background-image: url("images/red_balloon.png");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(4){	
-    background-image: url("images/blue_balloon.png");
+    background-image: url("blue_balloon.png");
 }
 
 #mainMenu ol li:nth-child(5){	
-    background-image: url("images/yellow_balloon.png");
+    background-image: url("yellow_balloon.png");
 }
 
 #mainMenu ol li:nth-child(6){	
-    background-image: url("images/red_balloon.png");
+    background-image: url("red_balloon.png");
 }
 
 #mainMenu ol li:nth-child(7){	
-    background-image: url("images/blue_balloon.png");
+    background-image: url("blue_balloon.png");
     vertical-align: -1em;
 }
 
 #mainMenu ol li:nth-child(1):active{	
-    background-image: url("images/bluePop.png");
+    background-image: url("bluePop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(2):active{	
-    background-image: url("images/yellowPop.png");
+    background-image: url("yellowPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(3):active{	
-    background-image: url("images/redPop.png");
+    background-image: url("redPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(4):active{	
-    background-image: url("images/bluePop.png");
+    background-image: url("bluePop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(5):active{	
-    background-image: url("images/yellowPop.png");
+    background-image: url("yellowPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(6):active{	
-    background-image: url("images/redPop.png");
+    background-image: url("redPop.png");
     background-position: center center;
 }
 
 #mainMenu ol li:nth-child(7):active{	
-    background-image: url("images/bluePop.png");
+    background-image: url("bluePop.png");
     background-position: center center;
 }
 
@@ -406,7 +389,7 @@ nav#mainMenu ol li.menuLink a:visited{
 }
 
 .body {
-    background-image: url(images/do!rwy2.png);
+    background-image: url(do!rwy2.png);
     background-repeat: repeat;
     border-left: thick solid black;
     border-right: thick solid black;
@@ -655,7 +638,6 @@ figcaption{
     border-top: thin dotted  #999999;
     padding-top: .4em;
     padding-bottom: .4em;
-    margin-bottom: 1em;
     
 }
 
@@ -1113,7 +1095,7 @@ div #studentComments{
     margin-left:1.5em;
 }
 
-#media aside#otherMedia{
+#media #otherMedia{
     background-color: rgba(255,255,255,0);
     border: none;
     border-radius: 0;
@@ -1151,6 +1133,7 @@ aside {
 }
 
 aside#upcoming{
+    background-color: rgb(255,250,50);
     border: 2px solid;
     border-radius: 0.5em;
     clear: both;
@@ -1159,10 +1142,6 @@ aside#upcoming{
     margin-left: 1em;
     padding: 0.5em;
     width: 20em;
-    background: -webkit-linear-gradient(180deg, lightcyan, gainsboro); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(180deg, lightcyan, gainsboro); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(180deg, lightcyan, gainsboro); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(180deg, lightcyan, gainsboro); /* Standard syntax (must be last) */
 }
 #upcoming div.box{
     clear: both;
@@ -1170,10 +1149,7 @@ aside#upcoming{
 }
 
 aside#otherMedia{
-    background: -webkit-linear-gradient(0deg, grey, gainsboro); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(0deg, grey, gainsboro); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(0deg, grey, gainsboro); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(0deg, grey, gainsboro); /* Standard syntax (must be last) */
+    background-color: rgb(255,250,50);
 }
 
 #upcoming h2{
@@ -1203,7 +1179,7 @@ aside#otherMedia{
 
 /* ===================  Footer Section        =============================== */
 footer{
-    background-color: firebrick;
+    background-color: #3B5998;
     border: 2px solid #3B5998;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
@@ -1216,7 +1192,6 @@ footer{
     margin-top: -50px;
     width: 80%;
     margin: auto;
-    text-align: center;
 }
 
 footer p{
