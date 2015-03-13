@@ -267,6 +267,27 @@ strong{
     font-family: "century gothic";
 }
 
+#mainMenu ol li:hover{
+    -webkit-animation: example 1.5s infinite; /* Safari */  
+    animation: example 1.5s infinite;
+}
+
+/* Safari */
+@-webkit-keyframes example {
+  0%  { -webkit-transform:  rotate(40deg); }
+  25%  { -webkit-transform:  rotate(37deg); }
+  60%  { -webkit-transform:  rotate(43deg); }
+  100%  { -webkit-transform:  rotate(40deg); }
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%  { -webkit-transform:  rotate(40deg); }
+  25%  { -webkit-transform:  rotate(37deg); }
+  60%  { -webkit-transform:  rotate(43deg); }
+  100%  { -webkit-transform:  rotate(40deg); }
+}
+
 #mainMenu ol li:active{
     background-size: 95%;
     background-repeat: no-repeat;
@@ -1178,7 +1199,7 @@ aside#otherMedia{
 
 /* ===================  Footer Section        =============================== */
 footer{
-    background-color: #3B5998;
+    background-color: firebrick;
     border: 2px solid #3B5998;
     border-bottom-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
@@ -1191,6 +1212,7 @@ footer{
     margin-top: -50px;
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 footer p{
