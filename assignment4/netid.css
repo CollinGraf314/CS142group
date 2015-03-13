@@ -230,11 +230,16 @@ strong{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     max-height: 150px;
 =======
     max-height: 170px;
 >>>>>>> master
     background-image: url(images/corkboard.jpg);
+=======
+    max-height: 150px;
+    background-image: url(corkboard.jpg);
+>>>>>>> parent of ee0e640... animation
 =======
     max-height: 150px;
     background-image: url(corkboard.jpg);
